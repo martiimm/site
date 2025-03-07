@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gaming Shop</title>
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header class="site-header">
+    
+    <div class="top-bar">
+      <div class="logo">
+        <h1>Gaming Shop</h1>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Procura por Produtos..." />
+        <button>Procurar</button>
+      </div>
+      <div class="cart">
+        <a href="#">Carrinho (0)</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Principal</a></li>
+        <li><a href="Promoções.html">Promoções</a></li>
+        <li><a href="women.html">Monitores</a></li>
+        <li><a href="men.html">Fones</a></li>
+        <li><a href="kids.html">Teclados</a></li>
+        <li><a href="sale.html">Ratos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Loja com os Melhores Produtos</h2>
+      <p>Descobre os melhores preços</p>
+      <button class="cta-button">Compra Já</button>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <h2>Produtos Principais</h2>
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/P074050_1_ada97eec_thumbnail_4096.jpg" alt="Product 1" />
+          <h3>Monitor LG27 180 Hz FreeSync</h3>
+          <p class="price">€159.99</p>
+          <button class="add-to-cart">Adiciona ao Carrinho</button>
+        </article>
+
+        <!-- Product Card 2 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/664388_0919c034_thumbnail_4096.jpg" alt="Product 2" />
+          <h3>Fones Hyper X Cloud III</h3>
+          <p class="price">€79.99</p>
+          <button class="add-to-cart">Adiciona ao Carrinho</button>
+        </article>
+
+        <!-- Product Card 3 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p037974_1_b1335f07_thumbnail_4096.jpg" alt="Product 3" />
+          <h3>Teclado Steelseries Apex 3 RGB</h3>
+          <p class="price">€49.99</p>
+          <button class="add-to-cart">Adiciona ao Carrinho</button>
+        </article>
+
+        <!-- Product Card 4 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p037976_1_a4037659_thumbnail_4096.jpg" alt="Product 4" />
+          <h3>Rato Steelseries Aerox 3 RGB</h3>
+          <p class="price">€39.99</p>
+          <button class="add-to-cart">Adiciona ao Carrinho</button>
+        </article>
+      <!-- Product Card 5 -->
+      <article class="product-card">
+        <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p039108_1_2f88f841_thumbnail_4096.jpg" alt="Product 4" />
+        <h3>Tapete de Rato (Mousepad) Lenovo</h3>
+        <p class="price">€19.99</p>
+        <button class="add-to-cart">Adiciona ao Carrinho</button>
+      </article>
+      </div>
+    </section>
+
+    <!-- Categories / Promotion -->
+    <section class="categories">
+      <h2>Procura por Categoria</h2>
+      <div class="category-grid">
+        <div class="category-item" style="background-image: url('https://via.placeholder.com/300x200');">
+          <h3>Monitores</h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://via.placeholder.com/300x200');">
+          <h3>Fones</h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://via.placeholder.com/300x200');">
+          <h3>Teclados</h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://via.placeholder.com/300x200');">
+          <h3>Ratos</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Coloca o teu email</h2>
+      <p>Para receberes atualizações e ofertas especial!</p>
+      <form>
+        <input type="email" placeholder="Coloca o teu email" required />
+        <button type="submit">Inscrevete</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h3>Sobre Nos</h3>
+        <p>
+          Gaming Shop é uma loja ficticia de  eCommerce.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="#">Help &amp; FAQs</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Segue</h3>
+        <ul class="social-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">
+      &copy; 2025 ShopEasy. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
